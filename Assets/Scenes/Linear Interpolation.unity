@@ -655,6 +655,12 @@ MonoBehaviour:
   start: {fileID: 219465788}
   end: {fileID: 197642621}
   t: 0
+  curve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
