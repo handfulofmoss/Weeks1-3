@@ -19,6 +19,8 @@ public class SpriteChanger : MonoBehaviour
         //{
         //    //PickARandomColor();
         //}
+        //DONT WRITE IT THIS WAY- will read it as sprite pos at (0,0): SpriteRenderer.sprite.bounds.Contains(mousePos)
+        //INSTEAD DO: SpriteRenderer.bounds.Contains(mousePos)
 
         //get mouse position
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
